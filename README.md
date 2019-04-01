@@ -27,6 +27,7 @@ e.g. ratings <- read_delim("ratings.dat", "~",
 after some steps of data selection we only preserve 3 column: UserID, MovieID and Rating 
 library(data.table) and library(reshape) for data transformation (from data frame to matrix)
 We change our data from this kind of format to a matrix
+```
     user item rating
     5    u1   i2      2
     7    u1   i3      3
@@ -42,6 +43,7 @@ We change our data from this kind of format to a matrix
    u3  2 NA NA NA NA  1 NA NA NA  NA
    u4  2  2  1 NA NA  5 NA  0  2  NA
    u5  5 NA NA NA NA NA NA  5 NA   4
+```
 
 ```library ( "recommenderlab" )``` for collaborative filtering algorithm
 
