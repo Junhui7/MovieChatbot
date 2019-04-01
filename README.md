@@ -7,8 +7,8 @@ As a small project, try to finish your movie bot by implementing the following s
 The api results are detailed information on each movie including its exact Title Year omdbID poster. At first we chosed TMDB api. This api can pick out matching movies based on type, actor, year, director, etc. It has more choices. But it needs project url information. So finally we chosed simple api omdb.
 
 You can ask like : 
-- Movie <Moviename>
-- i want to know information about <MovieName>
+- Movie (Moviename)
+- i want to know information about (MovieName)
   
  For the recommandation system, we use langage R et collaborative filtering. 
  Our recommendation system is based on collaborative filtering and the details can be referred as follow:
